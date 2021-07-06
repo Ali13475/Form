@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    background: black;
+    opacity: 80%;
+    text-align: center;
+    color: white;
+    width: 320px;
+    margin: 100px auto;
+    padding: 40px;
+    align-items: center;
+}
+form .icon ion-icon{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+h1{
+    text-transform: uppercase;
+}
+
+input[type="text"],input[type="password"]{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: aqua;
+    padding: 20px 15px 20px 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+    background: aqua;
+    color: rgb(0, 0, 0);
+    transition: 1.0s;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+    border-radius: 50px;
+}
+input[type="submit"]{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px 15px;
+    margin-top: 20px;
+}
+input[type="submit"]:hover{
+    width: 200px;
+    background: aqua;
+    color: rgb(0, 0, 0);
+    transition: 1.0s;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+    border-radius: 50px;
+}
